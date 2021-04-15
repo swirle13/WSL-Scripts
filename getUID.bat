@@ -1,0 +1,1 @@
+for /F "tokens=1,2 delims=: " %%A in ('WhoAmI /USER /FO LIST') do @if /I "%%~A" == "SID" echo %%B
